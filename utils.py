@@ -1,7 +1,6 @@
 import conf
 import yt_dlp
 
-
 def download_video(link):
     '''
     Downloads the provided video link using 
@@ -12,7 +11,7 @@ def download_video(link):
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         ydl.download(link)
         
-        #Retrieve filename of video
+        #Retrieve filename + video title of video
         info_dict = ydl.extract_info(link, download=False)
         video_id = info_dict.get("id", None)
         video_title = info_dict.get('title', None)
