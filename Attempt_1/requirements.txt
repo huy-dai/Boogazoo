@@ -1,0 +1,3 @@
+git+https://github.com/Cupcakus/pafy@develop#egg=pafy
+python-vlc==3.0.16120
+youtube_dl==2021.12.17
