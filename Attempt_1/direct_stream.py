@@ -21,4 +21,4 @@ media.play()
 
 # wait so the video can be played for 5 seconds
 # irrespective for length of video
-time.sleep(100)
+time.sleep(10)
