@@ -1,4 +1,4 @@
-# Plans for Musicazoo2
+# Plans for Boogazoo
 
 ## Back-End
 
@@ -10,4 +10,4 @@ Provide REST APIs endpoint using Flask and a WSGI server (maybe Gunincorn) to al
 
 Design a simple Javascript website with modern CSS styling that interfaces with the back-end APIs for controlling of videos. Current framework considerations include Node.js or Svelte kit
 
-Also displays information about the current queue,
+Also displays information about the current queue, provide options to add video links
